@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: aqua;
+}
+
+/* NAVBAR */
+nav{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+nav h1{
+    color: blue;
+    display: inline-block;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: darkblue;
+}
+
+/* SECTIONS */
+section{
+    width: 80%;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: aqua;
+    border-radius: 15px;
+    box-shadow: 0 0 25px blue;
+}
+
+section h2{
+    color: blue;
+    margin-bottom: 15px;
+}
+
+/* HOME */
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #008b8b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SKILLS */
+.skills{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    background-color: #008b8b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* PROJECTS */
+.project{
+    background-color: #008b8b;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    color: blue;
+    margin: 20px;
+}
